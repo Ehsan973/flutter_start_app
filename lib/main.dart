@@ -14,9 +14,9 @@ class Application extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      // home: getTestScreen(),
+      home: getTestScreen(),
       // home: getFirstChallangeScreen(),
-      home: getSecondChallangeScreen(),
+      // home: getSecondChallangeScreen(),
     );
   }
 }
